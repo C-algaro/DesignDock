@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* MAIN SECTION */
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "Poppins";
+    list-style: none;
+}
+
+:root {
+    --cor1: #fff;
+    --cor2: #e50914;
+    --cor3: black;
+    --cor4: #0071eb;
+    --teste: #425735;
+    --teste2: #006546;
+    --bk: rgb(209, 209, 209);
+}
+
+.assinatura {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.assinatura .backAlerta {
+    background: var(--cor2);
+    border-radius: 17px;
+    font-size: .75rem;
+    padding: .2rem 1rem;
+    margin: .2rem 1rem;
+}
+.assinatura .backAlerta .alerta {
+    color: var(--cor1);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 800;
+}
+
+.assinatura .preco {
+    font-weight: bolder;
+    font-size: larger;
+    margin: 0px 5px;
+}
+
+.assinatura .promocoes {
+    color: var(--cor4);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.backMain img {
+    z-index: -1;
+    background: rgba(0,0,0,.5);
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-between;
+}
+
+nav .logo {
+    display: block;
+    color: var(--cor2);
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+nav .menu {
+    display: block;
+    align-self: center;
+}
+
+nav .menu .idioma {
+    color: var(--cor1);
+    background: var(--cor3);
+    margin: 1px 10px;
+    border-radius: .3rem;
+    height: 37px;
+    width: 110px;
+    border-color: var(--cor1);
+    border-style: double;
+}
+
+nav .menu .login {
+    color: var(--cor1);
+    background: var(--cor2);
+    font-size: medium;
+    height: 35px;
+    width: 77px;
+    margin: 1rem 1rem;
+    border-radius: .25rem;
+    border: none;
+}
+
+nav .menu .login {
+    cursor: pointer;
+}
+
+.backMain .main {
+    display: block;
+    max-width: 940px;
+    margin: 0 auto;
+    color: var(--cor1);
+    text-align: center;
+}
+
+.backMain .main h1 {
+    margin: 150px 100px 0px 100px;
+    font-size: 58px;
+}
+
+.backMain .main h2 {
+    font-weight: normal;
+}
+
+.backMain .main h3 {
+    margin: 30px 0 0 0;
+    font-size: large;
+    font-weight: normal;
+}
+
+.main .input {
+    margin: 15px 140px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main .input .email {
+    width: 500px;
+    height: 70px;
+}
+
+.main .input .submit {
+    width: 150px;
+    background: var(--teste);
+}
+
+.main .input .textCadastro {
+    background: var(--cor2);
+    align-self: center;
+    justify-self: end;
+    cursor: pointer;
+}
