@@ -1,4 +1,4 @@
-<h1>FrontEnd</h1>
+<h1>Front</h1>
 <p>
   Repositório com projetos e elementos web. Desde fragmentos de navegação, menu, login e social contact, à estruturas de páginas completas e páginas recriadas de marcas nacionais. A ideia desses projetos é de serem responsivos, de estarem em constante melhorias, de serem leves e de utilizarem menos complexidade possível.
 </p>
